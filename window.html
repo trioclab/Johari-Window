@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Johari Window</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+        <h1 id="heading">Johari Window</h1>
+        <section id="section1">
+            <p>To get started, pick the five or six words that you feel best describe you, from the list below:-</p>
+          </section>
+      <div id="grid">
+        <div onclick="appendValue(this)" class="boxes">Able</div>
+        <div onclick="appendValue(this)" class="boxes">Accepting</div>
+        <div onclick="appendValue(this)" class="boxes">Adaptable</div>
+        <div onclick="appendValue(this)" class="boxes">Bold</div>
+        <div onclick="appendValue(this)" class="boxes">Brave</div>
+        <div onclick="appendValue(this)" class="boxes">Calm</div>
+        <div onclick="appendValue(this)" class="boxes">Caring</div>
+        <div onclick="appendValue(this)" class="boxes">Cheerful</div>
+        <div onclick="appendValue(this)" class="boxes">Clever</div>
+        <div onclick="appendValue(this)" class="boxes">Complex</div>
+        <div onclick="appendValue(this)" class="boxes">Confident</div>
+        <div onclick="appendValue(this)" class="boxes">Dependable</div>
+        <div onclick="appendValue(this)" class="boxes">Dignified</div>
+        <div onclick="appendValue(this)" class="boxes">Energetic</div>
+        <div onclick="appendValue(this)" class="boxes">Extroverted</div>
+        <div onclick="appendValue(this)" class="boxes">Friendly</div>
+        <div onclick="appendValue(this)" class="boxes">Giving</div>
+        <div onclick="appendValue(this)" class="boxes">Happy</div>
+        <div onclick="appendValue(this)" class="boxes">Helpful</div>
+        <div onclick="appendValue(this)" class="boxes">Idealistic</div>
+        <div onclick="appendValue(this)" class="boxes">Independent</div>
+        <div onclick="appendValue(this)" class="boxes">Ingenious</div>
+        <div onclick="appendValue(this)" class="boxes">Intelligent</div>
+        <div onclick="appendValue(this)" class="boxes">Introverted</div>
+        <div onclick="appendValue(this)" class="boxes">Kind</div>
+        <div onclick="appendValue(this)" class="boxes">Knowledgeable</div>
+        <div onclick="appendValue(this)" class="boxes">Logical</div>
+        <div onclick="appendValue(this)" class="boxes">Loving</div>
+        <div onclick="appendValue(this)" class="boxes">Mature</div>
+        <div onclick="appendValue(this)" class="boxes">Modest</div>
+        <div onclick="appendValue(this)" class="boxes">Nervous</div>
+        <div onclick="appendValue(this)" class="boxes">Observant</div>
+        <div onclick="appendValue(this)" class="boxes">Organised</div>
+        <div onclick="appendValue(this)" class="boxes">Patient</div>
+        <div onclick="appendValue(this)" class="boxes">Powerful</div>
+        <div onclick="appendValue(this)" class="boxes">Proud</div>
+        <div onclick="appendValue(this)" class="boxes">Quiet</div>
+        <div onclick="appendValue(this)" class="boxes">Reflective</div>
+        <div onclick="appendValue(this)" class="boxes">Relaxed</div>
+        <div onclick="appendValue(this)" class="boxes">Religious</div>
+        <div onclick="appendValue(this)" class="boxes">Responsive</div>
+        <div onclick="appendValue(this)" class="boxes">Searching</div>
+        <div onclick="appendValue(this)" class="boxes">Self-assertive</div>
+        <div onclick="appendValue(this)" class="boxes">Self-conscious</div>
+        <div onclick="appendValue(this)" class="boxes">Sensible</div>
+        <div onclick="appendValue(this)" class="boxes">Sentimental</div>
+        <div onclick="appendValue(this)" class="boxes">Shy</div>
+        <div onclick="appendValue(this)" class="boxes">Silly</div>
+        <div onclick="appendValue(this)" class="boxes">Spontaneous</div>
+        <div onclick="appendValue(this)" class="boxes">Sympathetic</div>       
+      </div>
+      <section id="section2">
+        <p>Your results will now be saved, under a name of your choosing, so that you can send your friends and colleagues directly to your Window.</p>
+        <label for="name">Enter a Unique Name : </label>
+        <input id="name" type="text" required>
+        <button id="button">Save</button>
+      </section>
+      <footer>
+        <p>This game is developed by <strong>Sania Kiran</strong></p>
+      </footer>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  </body>
+</html>
