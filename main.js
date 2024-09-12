@@ -27,6 +27,7 @@ button.addEventListener("click", ()=>{
        newDiv.textContent = `Enter the name`;
    }else{
        newDiv.textContent = `${inputField.value} thinks : { ${arr} }`;
-    section.appendChild(newDiv);
+       section.appendChild(newDiv);
+       inputField = '';
    }
 });
