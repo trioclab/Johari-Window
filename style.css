@@ -18,9 +18,13 @@ body , html {
     justify-content: center;
     align-items: center;
 }
-#heading{
+#heading2{
     color: #c9ada7;
     font-size: 3rem;
+}
+#heading1{
+    color: #c9ada7;
+    font-size: 6vmax;
 }
 #grid{
     display: grid;
@@ -91,6 +95,16 @@ button:hover{
     align-items: center;
     justify-content: space-evenly;
 }
+#play-btn{
+    padding: 1rem 2.5rem;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+#doll1{
+        transform: scaleX(-1);
+      
+}
 footer{
     height: 100px;
     background: #f2e9e4a5;
@@ -114,6 +128,5 @@ footer{
     }
     #information{
         font-size: 14px;
-
     }
 }

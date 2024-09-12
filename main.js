@@ -1,3 +1,4 @@
+// for adjectives and save them in a array then show it
 let arr = [];
 const maxClicks = 6;
 const appendValue = (element) => {
@@ -31,3 +32,4 @@ button.addEventListener("click", ()=>{
        inputField = '';
    }
 });
+

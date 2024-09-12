@@ -9,14 +9,22 @@
 <body>
    <div id="container">
     <div id="wrapper">
-        <h1 id="heading">Johari Window</h1>
+        <h1 id="heading1">Johari Window</h1>
     </div>
+    <button id="play-btn">Play</button>
     <div id="info">
+        <img src="./images/purple.jpg" alt="" id="doll1">
         <p id="information">The Johari Window was invented by Joseph Luft and Harrington Ingham in the 1950s as a model for mapping personality awareness. By describing yourself from a fixed list of adjectives, then asking your friends and colleagues to describe you from the same list, a grid of overlap and difference can be built up.</p>
-        <img src="./images/purple.jpg" alt="" id="doll">
+        <img src="./images/purple.jpg" alt="" id="doll2">
     </div>
+
 </div>
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script>
+    // Play Button Navigation
+    let play_btn = document.querySelector("#play-btn");
+    play_btn.addEventListener('click', function() {
+        window.location.href = 'window.html';
+    });
+</script>
 </body>
 </html>
